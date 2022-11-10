@@ -43,8 +43,5 @@ EasyEnsembleClassifier model
 ![Screen Shot 2022-11-09 at 8 02 21 PM](https://user-images.githubusercontent.com/106174279/200990380-cd97ad66-1617-4c9c-929e-cee995a213b5.png)
 
 ## Summary 
-- Results of machine learning models
-- recommendation on the model to use
-- justify reasoning
 The models we used to discover the credit risk analysis have shown very weak precision when it comes to see if credit risk is high. However, the ensomble models brought some improvement in regards to the sensitivity of the high risk credits. For example, the easyensembleclassifier model shows 92% recall. This says that it can find almost all the high risk credit. Yet with low precisions, many of the low risk credis are wrongly detected as high risk. This would not be good for the bank's credit strategy and infringe on its revenue because it is missing business.
 I would not recommend that the bank uses any of these models to predict credit risk.
