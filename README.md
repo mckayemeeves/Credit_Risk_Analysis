@@ -1,15 +1,14 @@
 # Credit_Risk_Analysis
 ## Overview of Analysis
-# Purpose:
+## Purpose:
 - Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, I employed different techniques to train and evaluate models with unbalanced classes. I used imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
-# Deliverable 1:
+#### Deliverable 1:
 - Using imbalanced-learn and scikit-learn libraries, I evaluated three machine learning models by using resampling to determine which is better at predicting credit risk. First, I used the oversampling RandomOverSampler and SMOTE algorithms, and then the undersampling ClusterCentroids algorithm. Using these algorithms, I resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
-# Deliverable 2:
+#### Deliverable 2:
 - Using imbalanced-learn and scikit-learn libraries,I used a combinatorial approach of over- and undersampling with the SMOTEENN algorithm to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms from Deliverable 1. Using the SMOTEENN algorithm, I resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
-# Deliverable 3:
+#### Deliverable 3:
 - Using imblearn.ensemble I trained and compared two different ensemble classifiers (BalancedRandomForestClassifier and EasyEnsembleClassifier). These algorithms helped me to resample the dataset, view the count of the target classes, train the ensemble classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 ## Results
-- describe the balanced accuracy scores and the precision and recall scores of all six machine learning models
 RandomOverSampler model
 ![Screen Shot 2022-11-09 at 7 49 02 PM](https://user-images.githubusercontent.com/106174279/200988527-e245d8d2-eea2-4a1c-97d3-2aab0e73409d.png)
 - The balanced accuracy score is 65%.
